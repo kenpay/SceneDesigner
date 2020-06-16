@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ShowToolbox
     - aRTapToPlace
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -38,6 +39,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
     com.unity.multiplayer-hlapi.Runtime.dll:
     - UnityEngine.Networking.NetworkCallbacks
@@ -66,41 +70,49 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 19508}
+      Script: {instanceID: 11252}
     - Class: 114
-      Script: {instanceID: 20078}
+      Script: {instanceID: 11322}
     - Class: 114
-      Script: {instanceID: 20162}
+      Script: {instanceID: 11836}
     - Class: 114
-      Script: {instanceID: 20288}
+      Script: {instanceID: 11846}
     - Class: 114
-      Script: {instanceID: 20664}
+      Script: {instanceID: 11922}
     - Class: 114
-      Script: {instanceID: 21196}
+      Script: {instanceID: 12052}
     - Class: 114
-      Script: {instanceID: 21294}
+      Script: {instanceID: 12432}
     - Class: 114
-      Script: {instanceID: 21466}
+      Script: {instanceID: 12904}
     - Class: 114
-      Script: {instanceID: 22076}
+      Script: {instanceID: 12974}
     - Class: 114
-      Script: {instanceID: 22964}
+      Script: {instanceID: 13072}
     - Class: 114
-      Script: {instanceID: 23220}
+      Script: {instanceID: 13244}
     - Class: 114
-      Script: {instanceID: 23602}
+      Script: {instanceID: 13862}
     - Class: 114
-      Script: {instanceID: 24150}
+      Script: {instanceID: 14016}
     - Class: 114
-      Script: {instanceID: 24478}
+      Script: {instanceID: 14754}
     - Class: 114
-      Script: {instanceID: 24552}
+      Script: {instanceID: 15012}
     - Class: 114
-      Script: {instanceID: 25046}
+      Script: {instanceID: 15402}
     - Class: 114
-      Script: {instanceID: 25394}
+      Script: {instanceID: 15962}
     - Class: 114
-      Script: {instanceID: 25718}
+      Script: {instanceID: 16298}
+    - Class: 114
+      Script: {instanceID: 16374}
+    - Class: 114
+      Script: {instanceID: 16874}
+    - Class: 114
+      Script: {instanceID: 17224}
+    - Class: 114
+      Script: {instanceID: 17548}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -132,6 +144,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 3fe9861a264db8ab8d54b50465a70da3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShowToolbox
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -632,7 +650,7 @@ ScriptsOnlyBuild:
     className: ARFaceMeshVisualizer
   - hash:
       serializedVersion: 2
-      Hash: 2405c4962b0815da60cab2a20badc659
+      Hash: 8d1dc8c92dbc2d8b55433364dcbc26d6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: aRTapToPlace
@@ -1065,4 +1083,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Facultate/Licenta/New Unity Project (3)/Build/aR13.apk
+  playerPath: D:/Facultate/Licenta/New Unity Project (3)/Build/aR14.apk

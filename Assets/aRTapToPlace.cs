@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
@@ -13,7 +14,6 @@ public class aRTapToPlace : MonoBehaviour
     private ARRaycastManager _arRaycastManager;
     private Vector2 touchPosition;
     static readonly List<ARRaycastHit> hits = new List<ARRaycastHit>();
-
 
     private void Awake()
     {
@@ -34,7 +34,8 @@ public class aRTapToPlace : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!TryGetTouchPosition(out Vector2 touchPosition)) return;
+        //text.text = gameObjectToInstantiate.name;
+        if (!TryGetTouchPosition(out Vector2 touchPosition)) return;
         if(_arRaycastManager.Raycast(touchPosition,hits,TrackableType.PlaneWithinPolygon))
         {
             var hitPose = hits[0].pose;

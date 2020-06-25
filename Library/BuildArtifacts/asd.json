@@ -1,0 +1,84 @@
+{
+    "Result": {
+        "$type": "Unity.Build.BuildPipelineResult, Unity.Build",
+        "Succeeded": true,
+        "Message": null,
+        "Duration": "00:04:05.8684991",
+        "BuildPipeline": "GlobalObjectId_V1-1-b9a325ffa9c6f024cb1086a2e1e01d42-93214019566545601-0",
+        "BuildConfiguration": "GlobalObjectId_V1-1-c111b5183955b524baeca0e6c9e94841-93214019566545601-0",
+        "BuildStepsResults": [{
+            "$type": "Unity.Build.BuildStepResult, Unity.Build",
+            "Succeeded": true,
+            "Message": null,
+            "Duration": "00:00:02.8023612",
+            "BuildStep": {
+                "$type": "Unity.Build.Classic.SaveScenesAndAssets, Unity.Build.Classic"
+            },
+            "Description": "Saving Scenes and Assets"
+        }, {
+            "$type": "Unity.Build.BuildStepResult, Unity.Build",
+            "Succeeded": true,
+            "Message": null,
+            "Duration": "00:00:00.0213857",
+            "BuildStep": {
+                "$type": "Unity.Build.Classic.BuildStepApplyPlayerSettings, Unity.Build.Classic"
+            },
+            "Description": "Applying Player Settings"
+        }, {
+            "$type": "Unity.Build.BuildStepResult, Unity.Build",
+            "Succeeded": true,
+            "Message": null,
+            "Duration": "00:00:00.0003997",
+            "BuildStep": {
+                "$type": "Unity.Build.Classic.BuildStepSwitchPlatfomClassic, Unity.Build.Classic"
+            },
+            "Description": "Switching Active Platform"
+        }, {
+            "$type": "Unity.Build.BuildStepResult, Unity.Build",
+            "Succeeded": true,
+            "Message": null,
+            "Duration": "00:00:00.0167055",
+            "BuildStep": {
+                "$type": "Unity.Scenes.Editor.BuildStepCreateResourceCatalog, Unity.Scenes.Editor"
+            },
+            "Description": "Build Resource Catalog"
+        }, {
+            "$type": "Unity.Build.BuildStepResult, Unity.Build",
+            "Succeeded": true,
+            "Message": null,
+            "Duration": "00:04:02.9250798",
+            "BuildStep": {
+                "$type": "Unity.Scenes.Editor.BuildStepBuildClassicLiveLink, Unity.Scenes.Editor"
+            },
+            "Description": "Build LiveLink Player"
+        }, {
+            "$type": "Unity.Build.BuildStepResult, Unity.Build",
+            "Succeeded": true,
+            "Message": null,
+            "Duration": "00:00:00.0011140",
+            "BuildStep": {
+                "$type": "Unity.Scenes.Editor.BuildStepBuildClassicLiveLink, Unity.Scenes.Editor"
+            },
+            "Description": "Build LiveLink Player"
+        }, {
+            "$type": "Unity.Build.BuildStepResult, Unity.Build",
+            "Succeeded": true,
+            "Message": null,
+            "Duration": "00:00:00.0004203",
+            "BuildStep": {
+                "$type": "Unity.Scenes.Editor.BuildStepCreateResourceCatalog, Unity.Scenes.Editor"
+            },
+            "Description": "Build Resource Catalog"
+        }, {
+            "$type": "Unity.Build.BuildStepResult, Unity.Build",
+            "Succeeded": true,
+            "Message": null,
+            "Duration": "00:00:00.0814518",
+            "BuildStep": {
+                "$type": "Unity.Build.Classic.BuildStepApplyPlayerSettings, Unity.Build.Classic"
+            },
+            "Description": "Applying Player Settings"
+        }]
+    },
+    "Artifacts": []
+}

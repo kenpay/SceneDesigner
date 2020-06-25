@@ -42,7 +42,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Mask
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
-    - UnityEngine.UI.Text
     com.unity.multiplayer-hlapi.Runtime.dll:
     - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
@@ -73,8 +72,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11252}
     - Class: 114
       Script: {instanceID: 11322}
-    - Class: 114
-      Script: {instanceID: 11836}
     - Class: 114
       Script: {instanceID: 11846}
     - Class: 114
@@ -116,8 +113,6 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -650,7 +645,7 @@ ScriptsOnlyBuild:
     className: ARFaceMeshVisualizer
   - hash:
       serializedVersion: 2
-      Hash: 8d1dc8c92dbc2d8b55433364dcbc26d6
+      Hash: 9bf5816ea3dc87bc506ef48a3646235c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: aRTapToPlace
@@ -1083,4 +1078,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Facultate/Licenta/New Unity Project (3)/Build/aR14.apk
+  playerPath: D:/Facultate/Licenta/New Unity Project (3)/Build/aR17.apk
